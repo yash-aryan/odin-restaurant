@@ -13,36 +13,36 @@ export function createHomepage() {
     <span class="logo">Brand Name</span>
   </header>
   <div class="home card-container">
-    <figure class="card">
+    <div class="card">
       <blockquote class="quote">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione vel optio neque, ad exercitationem alias
           animi
           magni quaerat adipisci error.
         </p>
-        <figcaption>- Customer</figcaption>
+        <span>- Customer</span>
       </blockquote>
-    </figure>
-    <figure class="card">
+    </div>
+    <div class="card">
       <blockquote class="quote">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione vel optio neque, ad exercitationem alias
           animi
           magni quaerat adipisci error.
         </p>
-        <figcaption>- Customer</figcaption>
+        <span>- Customer</span>
       </blockquote>
-    </figure>
-    <figure class="card">
+    </div>
+    <div class="card">
       <blockquote class="quote">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione vel optio neque, ad exercitationem alias
           animi
           magni quaerat adipisci error.
         </p>
-        <figcaption>- Customer</figcaption>
+        <span>- Customer</span>
       </blockquote>
-    </figure>
+    </div>
   </div>
   <button class="home cta" type="button">Order Now</button>
   <footer>

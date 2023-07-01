@@ -3,11 +3,11 @@ export function createMenupage() {
 	const rootNode = document.querySelector("#content");
 	rootNode.innerHTML = `
   <nav>
-  <ul>
-    <li data-page="home">HOME</li>
-    <li class="active" data-page="menu">MENU</li>
-    <li data-page="contact">CONTACT</li>
-  </ul>
+    <ul>
+      <li data-page="home">HOME</li>
+      <li class="active" data-page="menu">MENU</li>
+      <li data-page="contact">CONTACT</li>
+    </ul>
   </nav>
   <header class="menu">
     <h1>Menu</h1>
