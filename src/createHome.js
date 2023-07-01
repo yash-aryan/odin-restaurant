@@ -1,11 +1,10 @@
 "use strict";
 export function createHomepage() {
 	const rootNode = document.querySelector("#content");
-	rootNode.replaceChildren();
 	rootNode.innerHTML = `
-  <nav class="home">
+  <nav>
     <ul>
-      <li data-page="home">HOME</li>
+      <li class="active" data-page="home">HOME</li>
       <li data-page="menu">MENU</li>
       <li data-page="contact">CONTACT</li>
     </ul>
@@ -46,13 +45,13 @@ export function createHomepage() {
     </figure>
   </div>
   <button class="home cta" type="button">Order Now</button>
-  <div class="footer">
+  <footer>
     <a href="https://github.com/yash-aryan/" target="_blank">Copyright ©
       <script>
         document.write(new Date().getFullYear())
       </script>
       yash-aryan
     </a>
-  </div>
+  </footer>
 `;
 }
